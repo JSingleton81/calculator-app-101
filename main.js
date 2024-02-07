@@ -64,7 +64,7 @@ const equals = () => {
     break;
     case "subtraction": putResultInElement(subtract(firstNum, secondNum)) 
     break;
-    case "multiplication": multiply(firstNum, secondNum) 
+    case "multiplication": multiply(multiply(firstNum, secondNum)
     break;
     case "division": console.log(divide(firstNum, secondNum)) 
     break;
